@@ -44,7 +44,7 @@ console.log(`Week progress: ${getWeekProgress().toFixed(2)}%`);
 console.log(timeLeftInWeek());
 
 const weekprogrss = new Date();
-const dtNow = Date.now();
+const dtNow = new Date();
 const nowDay = dtNow.getDay();
 const nowHour = dtNow.getHour()
 const nowMin = dtNow.getMinute(); 
